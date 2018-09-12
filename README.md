@@ -17,4 +17,7 @@ The face recognition system embedded in the police enforcement device can identi
 *  Fast and small network, the network of face recognitio is only 15228kb and the network of modifying face resolution is 757kb
 
 
+Here are some test results. The video is in [img](https://github.com/qjchen1972/remote_recognition/tree/master/img).
+
+
 
