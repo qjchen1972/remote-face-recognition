@@ -1,0 +1,1446 @@
+
+Epoch 0 : training_loss =  7500.790731  time = 2819 
+
+Epoch 1 : training_loss =  0.389305  time = 1030 
+
+Epoch 2 : training_loss =  0.389080  time = 1017 
+
+Epoch 3 : training_loss =  0.388695  time = 1028 
+
+Epoch 4 : training_loss =  0.388555  time = 1018 
+
+Epoch 5 : training_loss =  0.388320  time = 1018 
+
+Epoch 6 : training_loss =  0.388593  time = 960 
+
+Epoch 7 : training_loss =  0.388554  time = 1018 
+
+Epoch 8 : training_loss =  0.388150  time = 1020 
+
+Epoch 9 : training_loss =  0.388719  time = 1018 
+
+Epoch 0 : training_loss =  0.340166  time = 1021 
+
+Epoch 0 : training_loss =  19.674554  time = 810 
+
+Epoch 1 : training_loss =  0.340794  time = 795 
+
+Epoch 2 : training_loss =  0.340961  time = 798 
+
+Epoch 0 : training_loss =  5.747396  time = 1479 
+
+Epoch 1 : training_loss =  0.388086  time = 1442 
+
+Epoch 2 : training_loss =  0.388097  time = 1442 
+
+Epoch 0 : training_loss =  0.050688  time = 1491 
+
+Epoch 1 : training_loss =  0.017521  time = 1458 
+
+Epoch 2 : training_loss =  0.016728  time = 1458 
+
+Epoch 3 : training_loss =  0.016450  time = 1458 
+
+Epoch 4 : training_loss =  0.016269  time = 1459 
+
+Epoch 5 : training_loss =  0.016122  time = 1460 
+
+Epoch 6 : training_loss =  0.016000  time = 1462 
+
+Epoch 7 : training_loss =  0.015886  time = 1462 
+
+Epoch 8 : training_loss =  0.015790  time = 1462 
+
+Epoch 9 : training_loss =  0.015694  time = 1462 
+
+Epoch 10 : training_loss =  0.015615  time = 1463 
+
+Epoch 11 : training_loss =  0.015545  time = 1464 
+
+Epoch 12 : training_loss =  0.015475  time = 1461 
+
+Epoch 13 : training_loss =  0.015420  time = 1462 
+
+Epoch 14 : training_loss =  0.015357  time = 1462 
+
+Epoch 15 : training_loss =  0.015301  time = 1463 
+
+Epoch 16 : training_loss =  0.015253  time = 1462 
+
+Epoch 17 : training_loss =  0.015198  time = 1463 
+
+Epoch 18 : training_loss =  0.015156  time = 1463 
+
+Epoch 19 : training_loss =  0.015107  time = 1464 
+
+Epoch 20 : training_loss =  0.015073  time = 1463 
+
+Epoch 21 : training_loss =  0.015021  time = 1464 
+
+Epoch 22 : training_loss =  0.014984  time = 1464 
+
+Epoch 23 : training_loss =  0.014940  time = 1464 
+
+Epoch 24 : training_loss =  0.014900  time = 1464 
+
+Epoch 25 : training_loss =  0.014863  time = 1464 
+
+Epoch 26 : training_loss =  0.014825  time = 1464 
+
+Epoch 27 : training_loss =  0.014788  time = 1464 
+
+Epoch 28 : training_loss =  0.014757  time = 1464 
+
+Epoch 29 : training_loss =  0.014719  time = 1463 
+
+Epoch 30 : training_loss =  0.014691  time = 1464 
+
+Epoch 31 : training_loss =  0.014661  time = 1464 
+
+Epoch 32 : training_loss =  0.014630  time = 1464 
+
+Epoch 33 : training_loss =  0.014607  time = 1465 
+
+Epoch 34 : training_loss =  0.014578  time = 1464 
+
+Epoch 35 : training_loss =  0.014555  time = 1464 
+
+Epoch 36 : training_loss =  0.014534  time = 1464 
+
+Epoch 37 : training_loss =  0.014511  time = 1465 
+
+Epoch 38 : training_loss =  0.014488  time = 1465 
+
+Epoch 39 : training_loss =  0.014470  time = 1464 
+
+Epoch 40 : training_loss =  0.014449  time = 1465 
+
+Epoch 41 : training_loss =  0.014429  time = 1464 
+
+Epoch 42 : training_loss =  0.014411  time = 1465 
+
+Epoch 43 : training_loss =  0.014395  time = 1464 
+
+Epoch 44 : training_loss =  0.014379  time = 1465 
+
+Epoch 45 : training_loss =  0.014362  time = 1464 
+
+Epoch 46 : training_loss =  0.014345  time = 1464 
+
+Epoch 47 : training_loss =  0.014328  time = 1464 
+
+Epoch 48 : training_loss =  0.014316  time = 1464 
+
+Epoch 49 : training_loss =  0.014302  time = 1464 
+
+Epoch 50 : training_loss =  0.014288  time = 1465 
+
+Epoch 51 : training_loss =  0.014275  time = 1464 
+
+Epoch 52 : training_loss =  0.014266  time = 1465 
+
+Epoch 53 : training_loss =  0.014247  time = 1466 
+
+Epoch 54 : training_loss =  0.014233  time = 1466 
+
+Epoch 55 : training_loss =  0.014220  time = 1466 
+
+Epoch 56 : training_loss =  0.014210  time = 1465 
+
+Epoch 57 : training_loss =  0.014200  time = 1465 
+
+Epoch 58 : training_loss =  0.014189  time = 1464 
+
+Epoch 0 : training_loss =  0.017679  time = 318 
+
+Epoch 0 : training_loss =  0.018676  time = 257 
+
+Epoch 0 : training_loss =  0.020147  time = 217 
+
+Epoch 0 : training_loss =  0.035211  time = 216 
+
+Epoch 0 : training_loss =  0.035628  time = 215 
+
+Epoch 1 : training_loss =  0.033644  time = 196 
+
+Epoch 2 : training_loss =  0.033095  time = 197 
+
+Epoch 3 : training_loss =  0.032771  time = 196 
+
+Epoch 4 : training_loss =  0.032585  time = 196 
+
+Epoch 5 : training_loss =  0.032441  time = 196 
+
+Epoch 6 : training_loss =  0.105192  time = 196 
+
+Epoch 7 : training_loss =  0.128128  time = 195 
+
+Epoch 8 : training_loss =  0.076518  time = 195 
+
+Epoch 9 : training_loss =  0.069528  time = 196 
+
+Epoch 10 : training_loss =  0.066493  time = 196 
+
+Epoch 11 : training_loss =  0.065145  time = 196 
+
+Epoch 12 : training_loss =  0.064390  time = 197 
+
+Epoch 13 : training_loss =  0.063926  time = 195 
+
+Epoch 14 : training_loss =  0.063494  time = 196 
+
+Epoch 15 : training_loss =  0.063241  time = 196 
+
+Epoch 16 : training_loss =  0.063090  time = 196 
+
+Epoch 17 : training_loss =  0.062915  time = 196 
+
+Epoch 18 : training_loss =  0.062673  time = 196 
+
+Epoch 19 : training_loss =  0.062513  time = 196 
+
+Epoch 20 : training_loss =  0.062457  time = 195 
+
+Epoch 21 : training_loss =  0.062463  time = 196 
+
+Epoch 22 : training_loss =  0.062375  time = 195 
+
+Epoch 23 : training_loss =  0.062323  time = 195 
+
+Epoch 24 : training_loss =  0.062343  time = 195 
+
+Epoch 25 : training_loss =  0.062288  time = 196 
+
+Epoch 26 : training_loss =  0.062229  time = 196 
+
+Epoch 27 : training_loss =  0.062187  time = 195 
+
+Epoch 28 : training_loss =  0.062219  time = 196 
+
+Epoch 29 : training_loss =  0.062258  time = 196 
+
+Epoch 30 : training_loss =  0.062230  time = 196 
+
+Epoch 31 : training_loss =  0.062193  time = 195 
+
+Epoch 32 : training_loss =  0.062203  time = 196 
+
+Epoch 33 : training_loss =  0.062192  time = 196 
+
+Epoch 34 : training_loss =  0.062125  time = 196 
+
+Epoch 35 : training_loss =  0.062115  time = 196 
+
+Epoch 36 : training_loss =  0.062158  time = 196 
+
+Epoch 37 : training_loss =  0.062194  time = 196 
+
+Epoch 38 : training_loss =  0.062151  time = 196 
+
+Epoch 39 : training_loss =  0.062150  time = 196 
+
+Epoch 40 : training_loss =  0.062162  time = 196 
+
+Epoch 41 : training_loss =  0.062143  time = 196 
+
+Epoch 42 : training_loss =  0.062077  time = 196 
+
+Epoch 43 : training_loss =  0.062070  time = 196 
+
+Epoch 44 : training_loss =  0.062107  time = 195 
+
+Epoch 45 : training_loss =  0.062167  time = 196 
+
+Epoch 46 : training_loss =  0.062132  time = 196 
+
+Epoch 47 : training_loss =  0.062114  time = 196 
+
+Epoch 48 : training_loss =  0.062140  time = 196 
+
+Epoch 49 : training_loss =  0.062097  time = 196 
+
+Epoch 50 : training_loss =  0.062066  time = 196 
+
+Epoch 51 : training_loss =  0.062043  time = 195 
+
+Epoch 52 : training_loss =  0.062063  time = 196 
+
+Epoch 53 : training_loss =  0.062128  time = 195 
+
+Epoch 54 : training_loss =  0.062078  time = 196 
+
+Epoch 55 : training_loss =  0.062082  time = 196 
+
+Epoch 56 : training_loss =  0.062123  time = 196 
+
+Epoch 57 : training_loss =  0.062081  time = 216 
+
+Epoch 58 : training_loss =  0.062044  time = 196 
+
+Epoch 59 : training_loss =  0.062014  time = 195 
+
+Epoch 60 : training_loss =  0.062068  time = 196 
+
+Epoch 61 : training_loss =  0.062104  time = 196 
+
+Epoch 62 : training_loss =  0.062059  time = 196 
+
+Epoch 63 : training_loss =  0.062055  time = 196 
+
+Epoch 0 : training_loss =  0.155878  time = 215 
+
+Epoch 1 : training_loss =  0.139399  time = 196 
+
+Epoch 2 : training_loss =  0.117099  time = 197 
+
+Epoch 3 : training_loss =  0.083061  time = 196 
+
+Epoch 4 : training_loss =  0.056731  time = 196 
+
+Epoch 5 : training_loss =  0.124979  time = 196 
+
+Epoch 6 : training_loss =  0.152486  time = 196 
+
+Epoch 7 : training_loss =  0.150984  time = 196 
+
+Epoch 8 : training_loss =  0.148038  time = 196 
+
+Epoch 9 : training_loss =  0.148128  time = 196 
+
+Epoch 10 : training_loss =  0.147181  time = 196 
+
+Epoch 11 : training_loss =  0.147010  time = 197 
+
+Epoch 12 : training_loss =  0.148071  time = 197 
+
+Epoch 13 : training_loss =  0.145424  time = 195 
+
+Epoch 14 : training_loss =  0.148083  time = 196 
+
+Epoch 15 : training_loss =  0.145057  time = 196 
+
+Epoch 16 : training_loss =  0.148083  time = 196 
+
+Epoch 17 : training_loss =  0.145651  time = 196 
+
+Epoch 18 : training_loss =  0.146048  time = 196 
+
+Epoch 19 : training_loss =  0.117532  time = 196 
+
+Epoch 20 : training_loss =  0.118692  time = 196 
+
+Epoch 21 : training_loss =  0.118869  time = 196 
+
+Epoch 22 : training_loss =  0.118712  time = 196 
+
+Epoch 23 : training_loss =  0.118384  time = 196 
+
+Epoch 24 : training_loss =  0.118417  time = 196 
+
+Epoch 5 : training_loss =  0.128678  time = 214 
+
+Epoch 5 : training_loss =  0.112489  time = 216 
+
+Epoch 6 : training_loss =  0.131219  time = 197 
+
+Epoch 7 : training_loss =  0.130126  time = 195 
+
+Epoch 25 : training_loss =  0.118416  time = 215 
+
+Epoch 26 : training_loss =  0.118369  time = 195 
+
+Epoch 27 : training_loss =  0.118604  time = 196 
+
+Epoch 28 : training_loss =  0.118617  time = 195 
+
+Epoch 29 : training_loss =  0.049181  time = 196 
+
+Epoch 30 : training_loss =  0.045447  time = 195 
+
+Epoch 31 : training_loss =  0.045447  time = 195 
+
+Epoch 32 : training_loss =  0.045449  time = 195 
+
+Epoch 33 : training_loss =  0.043771  time = 195 
+
+Epoch 34 : training_loss =  0.043779  time = 195 
+
+Epoch 25 : training_loss =  0.118410  time = 216 
+
+Epoch 26 : training_loss =  0.118359  time = 196 
+
+Epoch 27 : training_loss =  0.118612  time = 195 
+
+Epoch 28 : training_loss =  0.118621  time = 197 
+
+Epoch 29 : training_loss =  0.118356  time = 196 
+
+Epoch 30 : training_loss =  0.118558  time = 196 
+
+Epoch 31 : training_loss =  0.118703  time = 196 
+
+Epoch 32 : training_loss =  0.118527  time = 196 
+
+Epoch 33 : training_loss =  0.047449  time = 196 
+
+Epoch 25 : training_loss =  0.118420  time = 215 lr = 0.005000 
+
+Epoch 25 : training_loss =  0.118415  time = 215 lr = 0.005000 
+
+Epoch 26 : training_loss =  0.118340  time = 195 lr = 0.005000 
+
+Epoch 27 : training_loss =  0.118604  time = 196 lr = 0.005000 
+
+Epoch 28 : training_loss =  0.118610  time = 196 lr = 0.005000 
+
+Epoch 29 : training_loss =  0.118362  time = 196 lr = 0.005000 
+
+Epoch 30 : training_loss =  0.118565  time = 196 lr = 0.005000 
+
+Epoch 31 : training_loss =  0.118719  time = 197 lr = 0.005000 
+
+Epoch 32 : training_loss =  0.118520  time = 196 lr = 0.005000 
+
+Epoch 33 : training_loss =  0.046621  time = 196 lr = 0.000500 
+
+Epoch 34 : training_loss =  0.045552  time = 197 lr = 0.000500 
+
+Epoch 35 : training_loss =  0.042403  time = 196 lr = 0.000500 
+
+Epoch 36 : training_loss =  0.037722  time = 196 lr = 0.000500 
+
+Epoch 37 : training_loss =  0.036796  time = 196 lr = 0.000500 
+
+Epoch 38 : training_loss =  0.035316  time = 196 lr = 0.000500 
+
+Epoch 39 : training_loss =  0.032081  time = 195 lr = 0.000500 
+
+Epoch 40 : training_loss =  0.031490  time = 196 lr = 0.000500 
+
+Epoch 41 : training_loss =  0.031759  time = 196 lr = 0.000500 
+
+Epoch 42 : training_loss =  0.030977  time = 195 lr = 0.000500 
+
+Epoch 43 : training_loss =  0.030586  time = 196 lr = 0.000500 
+
+Epoch 44 : training_loss =  0.030072  time = 196 lr = 0.000500 
+
+Epoch 45 : training_loss =  0.029695  time = 195 lr = 0.000500 
+
+Epoch 46 : training_loss =  0.029744  time = 196 lr = 0.000500 
+
+Epoch 47 : training_loss =  0.029514  time = 196 lr = 0.000500 
+
+Epoch 48 : training_loss =  0.029032  time = 196 lr = 0.000500 
+
+Epoch 49 : training_loss =  0.028998  time = 196 lr = 0.000500 
+
+Epoch 50 : training_loss =  0.028629  time = 196 lr = 0.000500 
+
+Epoch 51 : training_loss =  0.028608  time = 196 lr = 0.000500 
+
+Epoch 52 : training_loss =  0.028259  time = 196 lr = 0.000500 
+
+Epoch 53 : training_loss =  0.027743  time = 196 lr = 0.000500 
+
+Epoch 54 : training_loss =  0.027619  time = 196 lr = 0.000500 
+
+Epoch 55 : training_loss =  0.027551  time = 196 lr = 0.000500 
+
+Epoch 56 : training_loss =  0.027332  time = 196 lr = 0.000500 
+
+Epoch 57 : training_loss =  0.027007  time = 196 lr = 0.000500 
+
+Epoch 58 : training_loss =  0.027058  time = 196 lr = 0.000500 
+
+Epoch 59 : training_loss =  0.026908  time = 197 lr = 0.000500 
+
+Epoch 60 : training_loss =  0.026706  time = 197 lr = 0.000500 
+
+Epoch 61 : training_loss =  0.026624  time = 196 lr = 0.000500 
+
+Epoch 62 : training_loss =  0.026510  time = 196 lr = 0.000500 
+
+Epoch 63 : training_loss =  0.026348  time = 197 lr = 0.000500 
+
+Epoch 64 : training_loss =  0.026290  time = 196 lr = 0.000500 
+
+Epoch 65 : training_loss =  0.026144  time = 196 lr = 0.000500 
+
+Epoch 66 : training_loss =  0.026049  time = 196 lr = 0.000500 
+
+Epoch 67 : training_loss =  0.026091  time = 196 lr = 0.000500 
+
+Epoch 68 : training_loss =  0.025932  time = 196 lr = 0.000500 
+
+Epoch 69 : training_loss =  0.025924  time = 196 lr = 0.000500 
+
+Epoch 70 : training_loss =  0.025800  time = 196 lr = 0.000500 
+
+Epoch 71 : training_loss =  0.025598  time = 195 lr = 0.000500 
+
+Epoch 72 : training_loss =  0.025597  time = 196 lr = 0.000500 
+
+Epoch 73 : training_loss =  0.025599  time = 196 lr = 0.000500 
+
+Epoch 74 : training_loss =  0.025616  time = 196 lr = 0.000500 
+
+Epoch 75 : training_loss =  0.025670  time = 196 lr = 0.000500 
+
+Epoch 76 : training_loss =  0.025652  time = 196 lr = 0.000500 
+
+Epoch 77 : training_loss =  0.025523  time = 196 lr = 0.000500 
+
+Epoch 78 : training_loss =  0.025655  time = 196 lr = 0.000500 
+
+Epoch 79 : training_loss =  0.025158  time = 196 lr = 0.000500 
+
+Epoch 80 : training_loss =  0.025113  time = 196 lr = 0.000500 
+
+Epoch 81 : training_loss =  0.025088  time = 196 lr = 0.000500 
+
+Epoch 82 : training_loss =  0.025038  time = 196 lr = 0.000500 
+
+Epoch 83 : training_loss =  0.025009  time = 196 lr = 0.000500 
+
+Epoch 84 : training_loss =  0.024987  time = 195 lr = 0.000500 
+
+Epoch 85 : training_loss =  0.024949  time = 196 lr = 0.000500 
+
+Epoch 86 : training_loss =  0.024927  time = 196 lr = 0.000500 
+
+Epoch 87 : training_loss =  0.024914  time = 197 lr = 0.000500 
+
+Epoch 88 : training_loss =  0.024874  time = 196 lr = 0.000500 
+
+Epoch 89 : training_loss =  0.024848  time = 196 lr = 0.000500 
+
+Epoch 90 : training_loss =  0.024838  time = 196 lr = 0.000500 
+
+Epoch 91 : training_loss =  0.024809  time = 195 lr = 0.000500 
+
+Epoch 92 : training_loss =  0.024790  time = 196 lr = 0.000500 
+
+Epoch 93 : training_loss =  0.024780  time = 196 lr = 0.000500 
+
+Epoch 94 : training_loss =  0.024747  time = 196 lr = 0.000500 
+
+Epoch 95 : training_loss =  0.024728  time = 197 lr = 0.000500 
+
+Epoch 96 : training_loss =  0.024722  time = 196 lr = 0.000500 
+
+Epoch 97 : training_loss =  0.024697  time = 196 lr = 0.000500 
+
+Epoch 98 : training_loss =  0.024683  time = 196 lr = 0.000500 
+
+Epoch 99 : training_loss =  0.024680  time = 196 lr = 0.000500 
+
+Epoch 100 : training_loss =  0.024654  time = 196 lr = 0.000500 
+
+Epoch 101 : training_loss =  0.024640  time = 196 lr = 0.000500 
+
+Epoch 102 : training_loss =  0.024638  time = 196 lr = 0.000500 
+
+Epoch 103 : training_loss =  0.024614  time = 196 lr = 0.000500 
+
+Epoch 104 : training_loss =  0.024606  time = 196 lr = 0.000500 
+
+Epoch 105 : training_loss =  0.024602  time = 196 lr = 0.000500 
+
+Epoch 106 : training_loss =  0.024573  time = 195 lr = 0.000500 
+
+Epoch 107 : training_loss =  0.024567  time = 196 lr = 0.000500 
+
+Epoch 108 : training_loss =  0.024564  time = 196 lr = 0.000500 
+
+Epoch 109 : training_loss =  0.024541  time = 196 lr = 0.000500 
+
+Epoch 110 : training_loss =  0.024538  time = 196 lr = 0.000500 
+
+Epoch 111 : training_loss =  0.024541  time = 196 lr = 0.000500 
+
+Epoch 112 : training_loss =  0.024515  time = 196 lr = 0.000500 
+
+Epoch 113 : training_loss =  0.024505  time = 196 lr = 0.000500 
+
+Epoch 114 : training_loss =  0.024501  time = 196 lr = 0.000500 
+
+Epoch 115 : training_loss =  0.024480  time = 196 lr = 0.000500 
+
+Epoch 116 : training_loss =  0.024479  time = 196 lr = 0.000500 
+
+Epoch 117 : training_loss =  0.024477  time = 196 lr = 0.000500 
+
+Epoch 118 : training_loss =  0.024451  time = 196 lr = 0.000500 
+
+Epoch 119 : training_loss =  0.024447  time = 196 lr = 0.000500 
+
+Epoch 120 : training_loss =  0.024448  time = 196 lr = 0.000500 
+
+Epoch 121 : training_loss =  0.024430  time = 196 lr = 0.000500 
+
+Epoch 122 : training_loss =  0.024421  time = 196 lr = 0.000500 
+
+Epoch 123 : training_loss =  0.024423  time = 196 lr = 0.000500 
+
+Epoch 124 : training_loss =  0.024401  time = 196 lr = 0.000500 
+
+Epoch 125 : training_loss =  0.024395  time = 196 lr = 0.000500 
+
+Epoch 126 : training_loss =  0.024398  time = 196 lr = 0.000500 
+
+Epoch 127 : training_loss =  0.024377  time = 196 lr = 0.000500 
+
+Epoch 128 : training_loss =  0.024374  time = 196 lr = 0.000500 
+
+Epoch 129 : training_loss =  0.024372  time = 196 lr = 0.000500 
+
+Epoch 130 : training_loss =  0.024353  time = 196 lr = 0.000500 
+
+Epoch 131 : training_loss =  0.024352  time = 195 lr = 0.000500 
+
+Epoch 132 : training_loss =  0.024354  time = 196 lr = 0.000500 
+
+Epoch 133 : training_loss =  0.024331  time = 196 lr = 0.000500 
+
+Epoch 134 : training_loss =  0.024328  time = 196 lr = 0.000500 
+
+Epoch 135 : training_loss =  0.024330  time = 196 lr = 0.000500 
+
+Epoch 136 : training_loss =  0.024309  time = 196 lr = 0.000500 
+
+Epoch 137 : training_loss =  0.024302  time = 196 lr = 0.000500 
+
+Epoch 138 : training_loss =  0.024308  time = 196 lr = 0.000500 
+
+Epoch 139 : training_loss =  0.024284  time = 196 lr = 0.000500 
+
+Epoch 140 : training_loss =  0.024284  time = 197 lr = 0.000500 
+
+Epoch 141 : training_loss =  0.024285  time = 196 lr = 0.000500 
+
+Epoch 142 : training_loss =  0.024265  time = 196 lr = 0.000500 
+
+Epoch 143 : training_loss =  0.024261  time = 197 lr = 0.000500 
+
+Epoch 144 : training_loss =  0.024263  time = 196 lr = 0.000500 
+
+Epoch 145 : training_loss =  0.024245  time = 196 lr = 0.000500 
+
+Epoch 146 : training_loss =  0.024242  time = 196 lr = 0.000500 
+
+Epoch 147 : training_loss =  0.024245  time = 195 lr = 0.000500 
+
+Epoch 148 : training_loss =  0.024222  time = 196 lr = 0.000500 
+
+Epoch 149 : training_loss =  0.024221  time = 196 lr = 0.000500 
+
+Epoch 150 : training_loss =  0.024222  time = 196 lr = 0.000500 
+
+Epoch 151 : training_loss =  0.024202  time = 197 lr = 0.000500 
+
+Epoch 152 : training_loss =  0.024200  time = 196 lr = 0.000500 
+
+Epoch 153 : training_loss =  0.024204  time = 196 lr = 0.000500 
+
+Epoch 154 : training_loss =  0.024183  time = 196 lr = 0.000500 
+
+Epoch 155 : training_loss =  0.024182  time = 196 lr = 0.000500 
+
+Epoch 156 : training_loss =  0.024184  time = 196 lr = 0.000500 
+
+Epoch 157 : training_loss =  0.024163  time = 196 lr = 0.000500 
+
+Epoch 158 : training_loss =  0.024164  time = 196 lr = 0.000500 
+
+Epoch 159 : training_loss =  0.024164  time = 196 lr = 0.000500 
+
+Epoch 160 : training_loss =  0.024145  time = 196 lr = 0.000500 
+
+Epoch 161 : training_loss =  0.024142  time = 196 lr = 0.000500 
+
+Epoch 162 : training_loss =  0.024144  time = 196 lr = 0.000500 
+
+Epoch 163 : training_loss =  0.024128  time = 196 lr = 0.000500 
+
+Epoch 164 : training_loss =  0.024124  time = 196 lr = 0.000500 
+
+Epoch 165 : training_loss =  0.024129  time = 196 lr = 0.000500 
+
+Epoch 166 : training_loss =  0.024115  time = 196 lr = 0.000500 
+
+Epoch 167 : training_loss =  0.024107  time = 196 lr = 0.000500 
+
+Epoch 168 : training_loss =  0.024114  time = 196 lr = 0.000500 
+
+Epoch 169 : training_loss =  0.024093  time = 196 lr = 0.000500 
+
+Epoch 170 : training_loss =  0.024094  time = 196 lr = 0.000500 
+
+Epoch 171 : training_loss =  0.024099  time = 197 lr = 0.000500 
+
+Epoch 172 : training_loss =  0.024081  time = 196 lr = 0.000500 
+
+Epoch 173 : training_loss =  0.024075  time = 196 lr = 0.000500 
+
+Epoch 174 : training_loss =  0.024080  time = 196 lr = 0.000500 
+
+Epoch 175 : training_loss =  0.024061  time = 195 lr = 0.000500 
+
+Epoch 176 : training_loss =  0.024064  time = 197 lr = 0.000500 
+
+Epoch 177 : training_loss =  0.024068  time = 196 lr = 0.000500 
+
+Epoch 178 : training_loss =  0.024048  time = 196 lr = 0.000500 
+
+Epoch 179 : training_loss =  0.024046  time = 196 lr = 0.000500 
+
+Epoch 180 : training_loss =  0.024047  time = 196 lr = 0.000500 
+
+Epoch 181 : training_loss =  0.024027  time = 196 lr = 0.000500 
+
+Epoch 182 : training_loss =  0.024031  time = 196 lr = 0.000500 
+
+Epoch 183 : training_loss =  0.024033  time = 197 lr = 0.000500 
+
+Epoch 184 : training_loss =  0.024014  time = 196 lr = 0.000500 
+
+Epoch 185 : training_loss =  0.024008  time = 197 lr = 0.000500 
+
+Epoch 186 : training_loss =  0.024011  time = 196 lr = 0.000500 
+
+Epoch 187 : training_loss =  0.023994  time = 196 lr = 0.000500 
+
+Epoch 188 : training_loss =  0.023993  time = 196 lr = 0.000500 
+
+Epoch 189 : training_loss =  0.023999  time = 196 lr = 0.000500 
+
+Epoch 190 : training_loss =  0.023979  time = 196 lr = 0.000500 
+
+Epoch 191 : training_loss =  0.023969  time = 196 lr = 0.000500 
+
+Epoch 192 : training_loss =  0.023974  time = 196 lr = 0.000500 
+
+Epoch 193 : training_loss =  0.023954  time = 197 lr = 0.000500 
+
+Epoch 194 : training_loss =  0.023956  time = 196 lr = 0.000500 
+
+Epoch 195 : training_loss =  0.023962  time = 196 lr = 0.000500 
+
+Epoch 196 : training_loss =  0.023943  time = 196 lr = 0.000500 
+
+Epoch 197 : training_loss =  0.023935  time = 196 lr = 0.000500 
+
+Epoch 198 : training_loss =  0.023940  time = 196 lr = 0.000500 
+
+Epoch 199 : training_loss =  0.023922  time = 196 lr = 0.000500 
+
+Epoch 200 : training_loss =  0.023922  time = 196 lr = 0.000500 
+
+Epoch 201 : training_loss =  0.023923  time = 197 lr = 0.000500 
+
+Epoch 202 : training_loss =  0.023904  time = 196 lr = 0.000500 
+
+Epoch 203 : training_loss =  0.023898  time = 196 lr = 0.000500 
+
+Epoch 204 : training_loss =  0.023904  time = 195 lr = 0.000500 
+
+Epoch 205 : training_loss =  0.023883  time = 196 lr = 0.000500 
+
+Epoch 206 : training_loss =  0.023884  time = 197 lr = 0.000500 
+
+Epoch 207 : training_loss =  0.023888  time = 196 lr = 0.000500 
+
+Epoch 208 : training_loss =  0.023870  time = 196 lr = 0.000500 
+
+Epoch 209 : training_loss =  0.023866  time = 196 lr = 0.000500 
+
+Epoch 210 : training_loss =  0.023870  time = 196 lr = 0.000500 
+
+Epoch 211 : training_loss =  0.023849  time = 197 lr = 0.000500 
+
+Epoch 212 : training_loss =  0.023849  time = 197 lr = 0.000500 
+
+Epoch 213 : training_loss =  0.023855  time = 197 lr = 0.000500 
+
+Epoch 214 : training_loss =  0.023833  time = 197 lr = 0.000500 
+
+Epoch 215 : training_loss =  0.023829  time = 196 lr = 0.000500 
+
+Epoch 216 : training_loss =  0.023834  time = 196 lr = 0.000500 
+
+Epoch 217 : training_loss =  0.023817  time = 196 lr = 0.000500 
+
+Epoch 218 : training_loss =  0.023817  time = 196 lr = 0.000500 
+
+Epoch 219 : training_loss =  0.023819  time = 196 lr = 0.000500 
+
+Epoch 220 : training_loss =  0.023801  time = 196 lr = 0.000500 
+
+Epoch 221 : training_loss =  0.023798  time = 196 lr = 0.000500 
+
+Epoch 222 : training_loss =  0.023801  time = 196 lr = 0.000500 
+
+Epoch 223 : training_loss =  0.023781  time = 196 lr = 0.000500 
+
+Epoch 224 : training_loss =  0.023783  time = 196 lr = 0.000500 
+
+Epoch 225 : training_loss =  0.023785  time = 196 lr = 0.000500 
+
+Epoch 226 : training_loss =  0.023765  time = 196 lr = 0.000500 
+
+Epoch 227 : training_loss =  0.023761  time = 197 lr = 0.000500 
+
+Epoch 228 : training_loss =  0.023764  time = 196 lr = 0.000500 
+
+Epoch 229 : training_loss =  0.023741  time = 196 lr = 0.000500 
+
+Epoch 230 : training_loss =  0.023743  time = 196 lr = 0.000500 
+
+Epoch 231 : training_loss =  0.023745  time = 196 lr = 0.000500 
+
+Epoch 232 : training_loss =  0.023723  time = 196 lr = 0.000500 
+
+Epoch 233 : training_loss =  0.023720  time = 197 lr = 0.000500 
+
+Epoch 234 : training_loss =  0.023726  time = 196 lr = 0.000500 
+
+Epoch 235 : training_loss =  0.023705  time = 196 lr = 0.000500 
+
+Epoch 236 : training_loss =  0.023700  time = 196 lr = 0.000500 
+
+Epoch 237 : training_loss =  0.023705  time = 196 lr = 0.000500 
+
+Epoch 238 : training_loss =  0.023687  time = 196 lr = 0.000500 
+
+Epoch 239 : training_loss =  0.023683  time = 195 lr = 0.000500 
+
+Epoch 240 : training_loss =  0.023688  time = 196 lr = 0.000500 
+
+Epoch 241 : training_loss =  0.023667  time = 196 lr = 0.000500 
+
+Epoch 242 : training_loss =  0.023663  time = 196 lr = 0.000500 
+
+Epoch 243 : training_loss =  0.023669  time = 196 lr = 0.000500 
+
+Epoch 244 : training_loss =  0.023648  time = 196 lr = 0.000500 
+
+Epoch 245 : training_loss =  0.023649  time = 196 lr = 0.000500 
+
+Epoch 246 : training_loss =  0.023652  time = 196 lr = 0.000500 
+
+Epoch 247 : training_loss =  0.023632  time = 196 lr = 0.000500 
+
+Epoch 248 : training_loss =  0.023631  time = 196 lr = 0.000500 
+
+Epoch 249 : training_loss =  0.023633  time = 196 lr = 0.000500 
+
+Epoch 250 : training_loss =  0.023616  time = 196 lr = 0.000500 
+
+Epoch 251 : training_loss =  0.023614  time = 196 lr = 0.000500 
+
+Epoch 252 : training_loss =  0.023621  time = 196 lr = 0.000500 
+
+Epoch 253 : training_loss =  0.023601  time = 196 lr = 0.000500 
+
+Epoch 254 : training_loss =  0.023602  time = 196 lr = 0.000500 
+
+Epoch 255 : training_loss =  0.023605  time = 197 lr = 0.000500 
+
+Epoch 256 : training_loss =  0.023590  time = 197 lr = 0.000500 
+
+Epoch 257 : training_loss =  0.023588  time = 196 lr = 0.000500 
+
+Epoch 258 : training_loss =  0.023591  time = 196 lr = 0.000500 
+
+Epoch 259 : training_loss =  0.023575  time = 196 lr = 0.000500 
+
+Epoch 260 : training_loss =  0.023574  time = 197 lr = 0.000500 
+
+Epoch 261 : training_loss =  0.023580  time = 195 lr = 0.000500 
+
+Epoch 262 : training_loss =  0.023563  time = 196 lr = 0.000500 
+
+Epoch 263 : training_loss =  0.023565  time = 196 lr = 0.000500 
+
+Epoch 264 : training_loss =  0.023571  time = 195 lr = 0.000500 
+
+Epoch 265 : training_loss =  0.023549  time = 196 lr = 0.000500 
+
+Epoch 266 : training_loss =  0.023554  time = 196 lr = 0.000500 
+
+Epoch 267 : training_loss =  0.023555  time = 196 lr = 0.000500 
+
+Epoch 268 : training_loss =  0.023539  time = 196 lr = 0.000500 
+
+Epoch 269 : training_loss =  0.023536  time = 196 lr = 0.000500 
+
+Epoch 270 : training_loss =  0.023541  time = 196 lr = 0.000500 
+
+Epoch 271 : training_loss =  0.023526  time = 196 lr = 0.000500 
+
+Epoch 272 : training_loss =  0.023525  time = 196 lr = 0.000500 
+
+Epoch 273 : training_loss =  0.023533  time = 196 lr = 0.000500 
+
+Epoch 274 : training_loss =  0.023513  time = 196 lr = 0.000500 
+
+Epoch 275 : training_loss =  0.023514  time = 196 lr = 0.000500 
+
+Epoch 276 : training_loss =  0.023515  time = 197 lr = 0.000500 
+
+Epoch 277 : training_loss =  0.023500  time = 196 lr = 0.000500 
+
+Epoch 278 : training_loss =  0.023502  time = 197 lr = 0.000500 
+
+Epoch 279 : training_loss =  0.023507  time = 196 lr = 0.000500 
+
+Epoch 280 : training_loss =  0.023489  time = 196 lr = 0.000500 
+
+Epoch 281 : training_loss =  0.023486  time = 196 lr = 0.000500 
+
+Epoch 282 : training_loss =  0.023491  time = 195 lr = 0.000500 
+
+Epoch 283 : training_loss =  0.023479  time = 196 lr = 0.000500 
+
+Epoch 284 : training_loss =  0.023477  time = 196 lr = 0.000500 
+
+Epoch 285 : training_loss =  0.023483  time = 196 lr = 0.000500 
+
+Epoch 286 : training_loss =  0.023461  time = 196 lr = 0.000500 
+
+Epoch 287 : training_loss =  0.023460  time = 196 lr = 0.000500 
+
+Epoch 288 : training_loss =  0.023463  time = 196 lr = 0.000500 
+
+Epoch 289 : training_loss =  0.023449  time = 196 lr = 0.000500 
+
+Epoch 290 : training_loss =  0.023446  time = 196 lr = 0.000500 
+
+Epoch 291 : training_loss =  0.023454  time = 197 lr = 0.000500 
+
+Epoch 292 : training_loss =  0.023435  time = 197 lr = 0.000500 
+
+Epoch 293 : training_loss =  0.023429  time = 196 lr = 0.000500 
+
+Epoch 294 : training_loss =  0.023434  time = 196 lr = 0.000500 
+
+Epoch 295 : training_loss =  0.023414  time = 197 lr = 0.000500 
+
+Epoch 296 : training_loss =  0.023416  time = 196 lr = 0.000500 
+
+Epoch 297 : training_loss =  0.023422  time = 196 lr = 0.000500 
+
+Epoch 298 : training_loss =  0.023403  time = 196 lr = 0.000500 
+
+Epoch 299 : training_loss =  0.023424  time = 196 lr = 0.000500 
+
+Epoch 300 : training_loss =  0.023404  time = 196 lr = 0.000500 
+
+Epoch 301 : training_loss =  0.023386  time = 196 lr = 0.000500 
+
+Epoch 302 : training_loss =  0.023417  time = 197 lr = 0.000500 
+
+Epoch 303 : training_loss =  0.023395  time = 196 lr = 0.000500 
+
+Epoch 304 : training_loss =  0.023371  time = 197 lr = 0.000500 
+
+Epoch 305 : training_loss =  0.023401  time = 196 lr = 0.000500 
+
+Epoch 306 : training_loss =  0.023376  time = 196 lr = 0.000500 
+
+Epoch 307 : training_loss =  0.023375  time = 196 lr = 0.000500 
+
+Epoch 308 : training_loss =  0.023355  time = 196 lr = 0.000500 
+
+Epoch 309 : training_loss =  0.023387  time = 196 lr = 0.000500 
+
+Epoch 0 : training_loss =  0.327774  time = 317 lr = 0.005000 
+
+Epoch 1 : training_loss =  0.127853  time = 292 lr = 0.005000 
+
+Epoch 2 : training_loss =  0.123838  time = 292 lr = 0.005000 
+
+Epoch 3 : training_loss =  0.122383  time = 292 lr = 0.005000 
+
+Epoch 4 : training_loss =  0.121895  time = 292 lr = 0.005000 
+
+Epoch 5 : training_loss =  0.121440  time = 292 lr = 0.005000 
+
+Epoch 6 : training_loss =  0.121147  time = 293 lr = 0.005000 
+
+Epoch 7 : training_loss =  0.119288  time = 292 lr = 0.005000 
+
+Epoch 8 : training_loss =  0.114497  time = 292 lr = 0.005000 
+
+Epoch 9 : training_loss =  0.119312  time = 292 lr = 0.005000 
+
+Epoch 10 : training_loss =  0.114157  time = 292 lr = 0.005000 
+
+Epoch 11 : training_loss =  0.111114  time = 293 lr = 0.005000 
+
+Epoch 12 : training_loss =  0.107771  time = 292 lr = 0.005000 
+
+Epoch 13 : training_loss =  0.243311  time = 292 lr = 0.005000 
+
+Epoch 14 : training_loss =  0.219844  time = 291 lr = 0.005000 
+
+Epoch 15 : training_loss =  0.198380  time = 291 lr = 0.005000 
+
+Epoch 16 : training_loss =  0.149631  time = 291 lr = 0.005000 
+
+Epoch 17 : training_loss =  0.125172  time = 291 lr = 0.005000 
+
+Epoch 18 : training_loss =  0.124792  time = 291 lr = 0.005000 
+
+Epoch 19 : training_loss =  0.041414  time = 291 lr = 0.000500 
+
+Epoch 20 : training_loss =  0.036052  time = 291 lr = 0.000500 
+
+Epoch 21 : training_loss =  0.036070  time = 291 lr = 0.000500 
+
+Epoch 22 : training_loss =  0.036062  time = 291 lr = 0.000500 
+
+Epoch 23 : training_loss =  0.036033  time = 291 lr = 0.000500 
+
+Epoch 24 : training_loss =  0.036042  time = 291 lr = 0.000500 
+
+Epoch 25 : training_loss =  0.036033  time = 291 lr = 0.000500 
+
+Epoch 26 : training_loss =  0.036040  time = 291 lr = 0.000500 
+
+Epoch 27 : training_loss =  0.036017  time = 291 lr = 0.000500 
+
+Epoch 28 : training_loss =  0.036049  time = 291 lr = 0.000500 
+
+Epoch 29 : training_loss =  0.036023  time = 291 lr = 0.000500 
+
+Epoch 30 : training_loss =  0.036033  time = 291 lr = 0.000500 
+
+Epoch 31 : training_loss =  0.036002  time = 291 lr = 0.000500 
+
+Epoch 32 : training_loss =  0.036024  time = 291 lr = 0.000500 
+
+Epoch 33 : training_loss =  0.036005  time = 291 lr = 0.000500 
+
+Epoch 34 : training_loss =  0.036012  time = 291 lr = 0.000500 
+
+Epoch 35 : training_loss =  0.036022  time = 291 lr = 0.000500 
+
+Epoch 36 : training_loss =  0.036013  time = 291 lr = 0.000500 
+
+Epoch 37 : training_loss =  0.035986  time = 291 lr = 0.000500 
+
+Epoch 38 : training_loss =  0.036027  time = 291 lr = 0.000500 
+
+Epoch 39 : training_loss =  0.036006  time = 291 lr = 0.000500 
+
+Epoch 40 : training_loss =  0.035995  time = 315 lr = 0.000500 
+
+Epoch 41 : training_loss =  0.035967  time = 291 lr = 0.000500 
+
+Epoch 42 : training_loss =  0.036003  time = 290 lr = 0.000500 
+
+Epoch 43 : training_loss =  0.033583  time = 316 lr = 0.000100 
+
+Epoch 44 : training_loss =  0.029074  time = 291 lr = 0.000100 
+
+Epoch 45 : training_loss =  0.027879  time = 291 lr = 0.000100 
+
+Epoch 46 : training_loss =  0.026579  time = 290 lr = 0.000100 
+
+Epoch 47 : training_loss =  0.025690  time = 290 lr = 0.000100 
+
+Epoch 48 : training_loss =  0.025245  time = 290 lr = 0.000100 
+
+Epoch 49 : training_loss =  0.024859  time = 290 lr = 0.000100 
+
+Epoch 50 : training_loss =  0.024656  time = 290 lr = 0.000100 
+
+Epoch 51 : training_loss =  0.024510  time = 291 lr = 0.000100 
+
+Epoch 52 : training_loss =  0.024359  time = 291 lr = 0.000100 
+
+Epoch 53 : training_loss =  0.024220  time = 290 lr = 0.000100 
+
+Epoch 54 : training_loss =  0.024143  time = 290 lr = 0.000100 
+
+Epoch 55 : training_loss =  0.024042  time = 290 lr = 0.000100 
+
+Epoch 56 : training_loss =  0.023965  time = 291 lr = 0.000100 
+
+Epoch 57 : training_loss =  0.023906  time = 290 lr = 0.000100 
+
+Epoch 58 : training_loss =  0.023817  time = 291 lr = 0.000100 
+
+Epoch 59 : training_loss =  0.023774  time = 290 lr = 0.000100 
+
+Epoch 60 : training_loss =  0.023701  time = 291 lr = 0.000100 
+
+Epoch 61 : training_loss =  0.023671  time = 291 lr = 0.000100 
+
+Epoch 62 : training_loss =  0.023619  time = 290 lr = 0.000100 
+
+Epoch 63 : training_loss =  0.023554  time = 290 lr = 0.000100 
+
+Epoch 64 : training_loss =  0.023495  time = 291 lr = 0.000100 
+
+Epoch 65 : training_loss =  0.023446  time = 290 lr = 0.000100 
+
+Epoch 66 : training_loss =  0.023375  time = 290 lr = 0.000100 
+
+Epoch 67 : training_loss =  0.023337  time = 291 lr = 0.000100 
+
+Epoch 68 : training_loss =  0.023297  time = 291 lr = 0.000100 
+
+Epoch 69 : training_loss =  0.023255  time = 291 lr = 0.000100 
+
+Epoch 70 : training_loss =  0.023212  time = 290 lr = 0.000100 
+
+Epoch 71 : training_loss =  0.023174  time = 290 lr = 0.000100 
+
+Epoch 72 : training_loss =  0.023130  time = 291 lr = 0.000100 
+
+Epoch 73 : training_loss =  0.023107  time = 290 lr = 0.000100 
+
+Epoch 74 : training_loss =  0.023043  time = 291 lr = 0.000100 
+
+Epoch 75 : training_loss =  0.023013  time = 290 lr = 0.000100 
+
+Epoch 76 : training_loss =  0.022978  time = 291 lr = 0.000100 
+
+Epoch 77 : training_loss =  0.022954  time = 290 lr = 0.000100 
+
+Epoch 78 : training_loss =  0.022923  time = 290 lr = 0.000100 
+
+Epoch 79 : training_loss =  0.022891  time = 290 lr = 0.000100 
+
+Epoch 80 : training_loss =  0.022846  time = 290 lr = 0.000100 
+
+Epoch 81 : training_loss =  0.022838  time = 290 lr = 0.000100 
+
+Epoch 82 : training_loss =  0.022800  time = 290 lr = 0.000100 
+
+Epoch 83 : training_loss =  0.022775  time = 290 lr = 0.000100 
+
+Epoch 84 : training_loss =  0.022747  time = 290 lr = 0.000100 
+
+Epoch 85 : training_loss =  0.022715  time = 291 lr = 0.000100 
+
+Epoch 86 : training_loss =  0.022729  time = 290 lr = 0.000100 
+
+Epoch 87 : training_loss =  0.022689  time = 290 lr = 0.000100 
+
+Epoch 88 : training_loss =  0.022668  time = 291 lr = 0.000100 
+
+Epoch 89 : training_loss =  0.022650  time = 291 lr = 0.000100 
+
+Epoch 90 : training_loss =  0.022626  time = 291 lr = 0.000100 
+
+Epoch 91 : training_loss =  0.022617  time = 291 lr = 0.000100 
+
+Epoch 92 : training_loss =  0.022591  time = 291 lr = 0.000100 
+
+Epoch 93 : training_loss =  0.022588  time = 290 lr = 0.000100 
+
+Epoch 94 : training_loss =  0.022602  time = 290 lr = 0.000100 
+
+Epoch 95 : training_loss =  0.022553  time = 291 lr = 0.000100 
+
+Epoch 96 : training_loss =  0.022539  time = 291 lr = 0.000100 
+
+Epoch 97 : training_loss =  0.022527  time = 290 lr = 0.000100 
+
+Epoch 98 : training_loss =  0.022533  time = 290 lr = 0.000100 
+
+Epoch 99 : training_loss =  0.022517  time = 291 lr = 0.000100 
+
+Epoch 100 : training_loss =  0.022490  time = 291 lr = 0.000100 
+
+Epoch 101 : training_loss =  0.022479  time = 291 lr = 0.000100 
+
+Epoch 102 : training_loss =  0.022486  time = 291 lr = 0.000100 
+
+Epoch 103 : training_loss =  0.022476  time = 291 lr = 0.000100 
+
+Epoch 104 : training_loss =  0.022466  time = 290 lr = 0.000100 
+
+Epoch 105 : training_loss =  0.022452  time = 290 lr = 0.000100 
+
+Epoch 106 : training_loss =  0.022442  time = 291 lr = 0.000100 
+
+Epoch 107 : training_loss =  0.022414  time = 291 lr = 0.000100 
+
+Epoch 108 : training_loss =  0.022390  time = 291 lr = 0.000100 
+
+Epoch 109 : training_loss =  0.022398  time = 291 lr = 0.000100 
+
+Epoch 110 : training_loss =  0.022382  time = 291 lr = 0.000100 
+
+Epoch 111 : training_loss =  0.022375  time = 291 lr = 0.000100 
+
+Epoch 112 : training_loss =  0.022332  time = 291 lr = 0.000100 
+
+Epoch 113 : training_loss =  0.022358  time = 291 lr = 0.000100 
+
+Epoch 114 : training_loss =  0.022336  time = 291 lr = 0.000100 
+
+Epoch 115 : training_loss =  0.022317  time = 291 lr = 0.000100 
+
+Epoch 116 : training_loss =  0.022345  time = 291 lr = 0.000100 
+
+Epoch 117 : training_loss =  0.022298  time = 291 lr = 0.000100 
+
+Epoch 118 : training_loss =  0.022307  time = 291 lr = 0.000100 
+
+Epoch 119 : training_loss =  0.022282  time = 291 lr = 0.000100 
+
+Epoch 120 : training_loss =  0.022276  time = 291 lr = 0.000100 
+
+Epoch 121 : training_loss =  0.022270  time = 291 lr = 0.000100 
+
+Epoch 122 : training_loss =  0.022250  time = 291 lr = 0.000100 
+
+Epoch 123 : training_loss =  0.022257  time = 291 lr = 0.000100 
+
+Epoch 124 : training_loss =  0.022236  time = 290 lr = 0.000100 
+
+Epoch 125 : training_loss =  0.022235  time = 290 lr = 0.000100 
+
+Epoch 126 : training_loss =  0.022223  time = 291 lr = 0.000100 
+
+Epoch 127 : training_loss =  0.022222  time = 291 lr = 0.000100 
+
+Epoch 128 : training_loss =  0.022184  time = 291 lr = 0.000100 
+
+Epoch 129 : training_loss =  0.022183  time = 291 lr = 0.000100 
+
+Epoch 130 : training_loss =  0.022194  time = 291 lr = 0.000100 
+
+Epoch 131 : training_loss =  0.022160  time = 290 lr = 0.000100 
+
+Epoch 132 : training_loss =  0.022157  time = 291 lr = 0.000100 
+
+Epoch 133 : training_loss =  0.022154  time = 291 lr = 0.000100 
+
+Epoch 134 : training_loss =  0.022153  time = 290 lr = 0.000100 
+
+Epoch 135 : training_loss =  0.022140  time = 290 lr = 0.000100 
+
+Epoch 136 : training_loss =  0.022277  time = 315 lr = 0.000050 
+
+Epoch 137 : training_loss =  0.022123  time = 290 lr = 0.000050 
+
+Epoch 138 : training_loss =  0.022119  time = 290 lr = 0.000050 
+
+Epoch 139 : training_loss =  0.022117  time = 290 lr = 0.000050 
+
+Epoch 140 : training_loss =  0.022106  time = 290 lr = 0.000050 
+
+Epoch 141 : training_loss =  0.022089  time = 291 lr = 0.000050 
+
+Epoch 142 : training_loss =  0.022085  time = 290 lr = 0.000050 
+
+Epoch 143 : training_loss =  0.022059  time = 291 lr = 0.000050 
+
+Epoch 144 : training_loss =  0.022065  time = 290 lr = 0.000050 
+
+Epoch 145 : training_loss =  0.022059  time = 291 lr = 0.000050 
+
+Epoch 146 : training_loss =  0.022076  time = 290 lr = 0.000050 
+
+Epoch 147 : training_loss =  0.022044  time = 291 lr = 0.000050 
+
+Epoch 148 : training_loss =  0.022050  time = 291 lr = 0.000050 
+
+Epoch 149 : training_loss =  0.022075  time = 290 lr = 0.000050 
+
+Epoch 150 : training_loss =  0.022028  time = 291 lr = 0.000050 
+
+Epoch 151 : training_loss =  0.022021  time = 290 lr = 0.000050 
+
+Epoch 152 : training_loss =  0.022020  time = 290 lr = 0.000050 
+
+Epoch 153 : training_loss =  0.022004  time = 290 lr = 0.000050 
+
+Epoch 154 : training_loss =  0.022013  time = 290 lr = 0.000050 
+
+Epoch 155 : training_loss =  0.022002  time = 291 lr = 0.000050 
+
+Epoch 156 : training_loss =  0.021999  time = 290 lr = 0.000050 
+
+Epoch 157 : training_loss =  0.022010  time = 291 lr = 0.000050 
+
+Epoch 158 : training_loss =  0.021995  time = 290 lr = 0.000050 
+
+Epoch 159 : training_loss =  0.021964  time = 291 lr = 0.000050 
+
+Epoch 160 : training_loss =  0.021981  time = 291 lr = 0.000050 
+
+Epoch 161 : training_loss =  0.021983  time = 291 lr = 0.000050 
+
+Epoch 162 : training_loss =  0.021985  time = 291 lr = 0.000050 
+
+Epoch 163 : training_loss =  0.021959  time = 291 lr = 0.000050 
+
+Epoch 164 : training_loss =  0.021958  time = 290 lr = 0.000050 
+
+Epoch 165 : training_loss =  0.021943  time = 290 lr = 0.000050 
+
+Epoch 166 : training_loss =  0.021933  time = 291 lr = 0.000050 
+
+Epoch 167 : training_loss =  0.021935  time = 291 lr = 0.000050 
+
+Epoch 168 : training_loss =  0.021948  time = 291 lr = 0.000050 
+
+Epoch 169 : training_loss =  0.021936  time = 291 lr = 0.000050 
+
+Epoch 170 : training_loss =  0.021934  time = 291 lr = 0.000050 
+
+Epoch 171 : training_loss =  0.021925  time = 291 lr = 0.000050 
+
+Epoch 172 : training_loss =  0.021941  time = 291 lr = 0.000050 
+
+Epoch 173 : training_loss =  0.021903  time = 290 lr = 0.000050 
+
+Epoch 174 : training_loss =  0.021925  time = 291 lr = 0.000050 
+
+Epoch 175 : training_loss =  0.021906  time = 290 lr = 0.000050 
+
+Epoch 176 : training_loss =  0.021907  time = 290 lr = 0.000050 
+
+Epoch 177 : training_loss =  0.021902  time = 290 lr = 0.000050 
+
+Epoch 178 : training_loss =  0.021891  time = 290 lr = 0.000050 
+
+Epoch 179 : training_loss =  0.021894  time = 291 lr = 0.000050 
+
+Epoch 180 : training_loss =  0.021880  time = 290 lr = 0.000050 
+
+Epoch 181 : training_loss =  0.021860  time = 291 lr = 0.000050 
+
+Epoch 182 : training_loss =  0.021884  time = 291 lr = 0.000050 
+
+Epoch 183 : training_loss =  0.021875  time = 291 lr = 0.000050 
+
+Epoch 184 : training_loss =  0.021865  time = 290 lr = 0.000050 
+
+Epoch 185 : training_loss =  0.021860  time = 291 lr = 0.000050 
+
+Epoch 186 : training_loss =  0.021869  time = 290 lr = 0.000050 
+
+Epoch 187 : training_loss =  0.021851  time = 291 lr = 0.000050 
+
+Epoch 188 : training_loss =  0.021858  time = 291 lr = 0.000050 
+
+Epoch 189 : training_loss =  0.021828  time = 290 lr = 0.000050 
+
+Epoch 190 : training_loss =  0.021824  time = 291 lr = 0.000050 
+
+Epoch 191 : training_loss =  0.021819  time = 290 lr = 0.000050 
+
+Epoch 192 : training_loss =  0.021843  time = 291 lr = 0.000050 
+
+Epoch 193 : training_loss =  0.021836  time = 291 lr = 0.000050 
+
+Epoch 194 : training_loss =  0.021829  time = 291 lr = 0.000050 
+
+Epoch 195 : training_loss =  0.021830  time = 291 lr = 0.000050 
+
+Epoch 196 : training_loss =  0.021829  time = 291 lr = 0.000050 
+
+Epoch 197 : training_loss =  0.021818  time = 290 lr = 0.000050 
+
+Epoch 198 : training_loss =  0.021808  time = 291 lr = 0.000005 
+
+Epoch 199 : training_loss =  0.021777  time = 291 lr = 0.000005 
+
+Epoch 200 : training_loss =  0.021782  time = 290 lr = 0.000005 
+
+Epoch 201 : training_loss =  0.021802  time = 291 lr = 0.000005 
+
+Epoch 202 : training_loss =  0.021772  time = 291 lr = 0.000005 
+
+Epoch 203 : training_loss =  0.021777  time = 291 lr = 0.000005 
+
+Epoch 204 : training_loss =  0.021795  time = 291 lr = 0.000005 
+
+Epoch 205 : training_loss =  0.021766  time = 291 lr = 0.000005 
+
+Epoch 206 : training_loss =  0.021759  time = 290 lr = 0.000005 
+
+Epoch 207 : training_loss =  0.021781  time = 291 lr = 0.000005 
+
+Epoch 208 : training_loss =  0.021786  time = 291 lr = 0.000005 
+
+Epoch 209 : training_loss =  0.021784  time = 291 lr = 0.000005 
+
+Epoch 210 : training_loss =  0.021781  time = 291 lr = 0.000005 
+
+Epoch 211 : training_loss =  0.021788  time = 290 lr = 0.000005 
+
+Epoch 212 : training_loss =  0.021800  time = 291 lr = 0.000005 
+
+Epoch 213 : training_loss =  0.021761  time = 290 lr = 0.000001 
+
+Epoch 214 : training_loss =  0.021775  time = 291 lr = 0.000001 
+
+Epoch 215 : training_loss =  0.021794  time = 290 lr = 0.000001 
+
+Epoch 216 : training_loss =  0.021790  time = 290 lr = 0.000001 
+
+Epoch 217 : training_loss =  0.021789  time = 290 lr = 0.000001 
+
+Epoch 218 : training_loss =  0.021783  time = 290 lr = 0.000001 
+
+Epoch 219 : training_loss =  0.021792  time = 290 lr = 0.000000 
+
+Epoch 220 : training_loss =  0.021790  time = 291 lr = 0.000000 
+
+Epoch 221 : training_loss =  0.021783  time = 291 lr = 0.000000 
+
+Epoch 222 : training_loss =  0.021781  time = 291 lr = 0.000000 
+
+Epoch 223 : training_loss =  0.021803  time = 291 lr = 0.000000 
+
+Epoch 224 : training_loss =  0.021775  time = 291 lr = 0.000000 
+
+Epoch 225 : training_loss =  0.021773  time = 291 lr = 0.000000 
+
+Epoch 226 : training_loss =  0.021782  time = 291 lr = 0.000000 
+
+Epoch 227 : training_loss =  0.021772  time = 291 lr = 0.000000 
+
+Epoch 228 : training_loss =  0.021788  time = 291 lr = 0.000000 
+
+Epoch 229 : training_loss =  0.021784  time = 290 lr = 0.000000 
+
+Epoch 230 : training_loss =  0.021786  time = 290 lr = 0.000000 
+
+Epoch 231 : training_loss =  0.021773  time = 291 lr = 0.000000 
+
+Epoch 232 : training_loss =  0.021803  time = 291 lr = 0.000000 
+
+Epoch 233 : training_loss =  0.021782  time = 290 lr = 0.000000 
+
+Epoch 234 : training_loss =  0.021785  time = 291 lr = 0.000000 
+
+Epoch 235 : training_loss =  0.021793  time = 290 lr = 0.000000 
+
+Epoch 236 : training_loss =  0.021795  time = 291 lr = 0.000000 
+
+Epoch 237 : training_loss =  0.021778  time = 290 lr = 0.000000 
+
+Epoch 238 : training_loss =  0.022572  time = 315 lr = 0.000100 
+
+Epoch 239 : training_loss =  0.021890  time = 291 lr = 0.000100 
+
+Epoch 240 : training_loss =  0.021854  time = 291 lr = 0.000100 
+
+Epoch 241 : training_loss =  0.021855  time = 292 lr = 0.000100 
+
+Epoch 242 : training_loss =  0.021849  time = 291 lr = 0.000100 
+
+Epoch 243 : training_loss =  0.021837  time = 291 lr = 0.000100 
+
+Epoch 244 : training_loss =  0.021852  time = 291 lr = 0.000100 

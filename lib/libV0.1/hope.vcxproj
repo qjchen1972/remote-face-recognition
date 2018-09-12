@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2138004E-926C-322F-8C41-EEFEE550224D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>hope</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\caffe2\pytorch\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hope.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\predictor\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hope.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\caffe2\pytorch\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hope.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\caffe2\pytorch\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hope.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\program\opencvV3.4.1\build\include;D:\hope_lib\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\program\opencvV3.4.1\build\x64\vc15\lib;D:\predictor\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ONNX_NAMESPACE=onnx_c2;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/Debug/caffe2.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/Debug/caffe2_protos.lib;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\lib\openblas.lib;..\lib\Debug\cpuinfo.lib;..\lib\Debug\nomnigraph.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/Debug/onnx.lib;..\lib\Debug\onnx_proto.lib;..\lib\Debug\libprotobufd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/caffe2/pytorch/build/lib/Debug/hope.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/caffe2/pytorch/build/bin/Debug/hope.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:caffe2.lib;-WHOLEARCHIVE:caffe2_protos.lib;openblas.lib;cpuinfo.lib;nomnigraph.lib;-WHOLEARCHIVE:onnx.lib;onnx_proto.lib;libprotobuf.lib;opencv_world341.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/caffe2/pytorch/build/lib/Release/hope.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/caffe2/pytorch/build/bin/Release/hope.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/MinSizeRel/caffe2.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/MinSizeRel/caffe2_protos.lib;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\lib\openblas.lib;..\lib\MinSizeRel\cpuinfo.lib;..\lib\MinSizeRel\nomnigraph.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/MinSizeRel/onnx.lib;..\lib\MinSizeRel\onnx_proto.lib;..\lib\MinSizeRel\libprotobuf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/caffe2/pytorch/build/lib/MinSizeRel/hope.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/caffe2/pytorch/build/bin/MinSizeRel/hope.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ONNX_NAMESPACE=onnx_c2;NDEBUG;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\caffe2\pytorch\build;D:\caffe2\pytorch;D:\caffe2\pytorch\third_party\protobuf\src;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\include;D:\caffe2\pytorch\third_party\eigen;D:\caffe2\pytorch\third_party\pybind11\include;D:\caffe2\pytorch\third_party\onnx;D:\caffe2\pytorch\build\third_party\onnx;D:\caffe2\pytorch\third_party\cpuinfo\include;D:\caffe2\pytorch\caffe2\core\nomnigraph\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/RelWithDebInfo/caffe2.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/RelWithDebInfo/caffe2_protos.lib;D:\caffe2\OpenBLAS-v0.2.19-Win64-int32\lib\openblas.lib;..\lib\RelWithDebInfo\cpuinfo.lib;..\lib\RelWithDebInfo\nomnigraph.lib;-WHOLEARCHIVE:D:/caffe2/pytorch/build/lib/RelWithDebInfo/onnx.lib;..\lib\RelWithDebInfo\onnx_proto.lib;..\lib\RelWithDebInfo\libprotobuf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/caffe2/pytorch/build/lib/RelWithDebInfo/hope.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/caffe2/pytorch/build/bin/RelWithDebInfo/hope.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\caffe2\pytorch\binaries\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/caffe2/pytorch/binaries/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/caffe2/pytorch -BD:/caffe2/pytorch/build --check-stamp-file D:/caffe2/pytorch/build/binaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/caffe2/pytorch/binaries/CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\caffe2\pytorch\build\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/caffe2/pytorch/binaries/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/caffe2/pytorch -BD:/caffe2/pytorch/build --check-stamp-file D:/caffe2/pytorch/build/binaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/caffe2/pytorch/binaries/CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\caffe2\pytorch\build\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/caffe2/pytorch/binaries/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/caffe2/pytorch -BD:/caffe2/pytorch/build --check-stamp-file D:/caffe2/pytorch/build/binaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/caffe2/pytorch/binaries/CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\caffe2\pytorch\build\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/caffe2/pytorch/binaries/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/caffe2/pytorch -BD:/caffe2/pytorch/build --check-stamp-file D:/caffe2/pytorch/build/binaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/caffe2/pytorch/binaries/CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;D:\caffe2\pytorch\binaries\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\caffe2\pytorch\build\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\caffe2\pytorch\build\ZERO_CHECK.vcxproj">
+      <Project>{14E68A80-044C-3D8C-BB16-2D52C926D76D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\caffe2\caffe2.vcxproj">
+      <Project>{B0B9628C-7986-3B0E-8642-4C4A51E93CBF}</Project>
+      <Name>caffe2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\caffe2\caffe2_protos.vcxproj">
+      <Project>{01371E6B-B09C-3C44-B249-A4E16EE0DC18}</Project>
+      <Name>caffe2_protos</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\confu-deps\cpuinfo\cpuinfo.vcxproj">
+      <Project>{406F228B-B9ED-3B4E-B09C-D7C098651D9E}</Project>
+      <Name>cpuinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\third_party\protobuf\cmake\libprotobuf.vcxproj">
+      <Project>{E167F694-1A6B-3C42-AC74-CFE15E45930D}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\caffe2\core\nomnigraph\nomnigraph.vcxproj">
+      <Project>{15E1C276-E940-3767-9E6D-54477989CFF4}</Project>
+      <Name>nomnigraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\third_party\onnx\onnx.vcxproj">
+      <Project>{2D4FD66F-FAB7-3556-A7F7-BE31A472B39F}</Project>
+      <Name>onnx</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\caffe2\pytorch\build\third_party\onnx\onnx_proto.vcxproj">
+      <Project>{B6305300-383F-3967-AA00-FE1FB5099201}</Project>
+      <Name>onnx_proto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\hope_lib\include\modify_face.h" />
+    <ClInclude Include="..\hope_lib\include\newface.h" />
+    <ClInclude Include="..\hope_lib\include\predictor.h" />
+    <ClInclude Include="..\hope_lib\include\preprocess.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\aligner.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\blob.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\common.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\common_net.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\hyper_param.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\log.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\net.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\net_factory.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\spatial_transform_net.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\tform_maker_net.h" />
+    <ClInclude Include="..\hope_lib\seeta_include\viplnet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\hope_lib\seeta_src\aligner.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\blob.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\common_net.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\log.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\net.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\spatial_transform_net.cpp" />
+    <ClCompile Include="..\hope_lib\seeta_src\tform_maker_net.cpp" />
+    <ClCompile Include="..\hope_lib\src\newface.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

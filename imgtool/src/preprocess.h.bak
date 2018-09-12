@@ -1,0 +1,192 @@
+#pragma once
+
+#include <stdio.h>
+#include <tchar.h>
+#include <iostream>
+#include <fstream>
+#include <math.h>
+#include <opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+
+class CPreProcess
+{
+public:
+	CPreProcess(){}
+	~CPreProcess() {}
+
+	void set_face_ext(int input_w, int input_h,float top_x = 0.3, float top_y = 0.3)
+	{
+		m_rate = 1.0*input_h / input_w;
+		m_offset_pctx = top_x;
+		m_offset_pcty = top_y;
+	}
+	
+	void set_param(float exp_gem, float gass_sigma0, float gass_sigma1, float alpha, float tau)
+	{
+		m_exp_gemma = exp_gem;
+		m_gass_sigma0 = gass_sigma0;
+		m_gass_sigma1 = gass_sigma1;
+		m_alpha = alpha;
+		m_tau = tau;
+	}
+
+	void set_img_size(int w, int h)
+	{
+		img_size = Size(w, h);
+	}
+
+	Mat  get_face(Rect rect, Mat  img, vector<Point2f> five)
+	{
+
+		pre_img(rect, img, five);
+
+		
+		//get the direction of eye
+		Point eye_direction(five[1].x - five[0].x, five[1].y - five[0].y);
+		//calc rotation angle in radians
+		float angle = atan2(eye_direction.y, eye_direction.x);
+		//printf("angle =%f\n", angle);
+		// calculate offsets in original image
+		int offset_h = floor(m_offset_pctx * img_size.width);
+		int offset_v = floor(m_offset_pcty*img_size.height);
+		
+		//distance betwee eyes
+		float eye_dis = sqrt(eye_direction.x*eye_direction.x + eye_direction.y * eye_direction.y);
+		
+		//calculate the reference eye-width 
+		float reference = img_size.width - 2.0*offset_h;
+		
+		//scale factor
+		float scale = eye_dis / reference;
+		align_face(img, angle, five);
+
+		//crop the rotated image
+		Rect temp_rect;
+		temp_rect.x = round(five[0].x - scale * offset_h);
+		temp_rect.y = round(five[0].y - scale * offset_v);
+		temp_rect.width = round(img_size.width *scale);
+		temp_rect.height = round(img_size.height*scale);
+
+		//printf("start1 rect is %d %d %d %d\n", rect.x, rect.y, rect.width, rect.height);
+		//printf("start rect is %d %d %d %d\n", temp_rect.x, temp_rect.y, temp_rect.width, temp_rect.height);
+		modify_rect(temp_rect, img.cols, img.rows);
+		//printf("rect is %d %d %d %d\n", temp_rect.x, temp_rect.y, temp_rect.width, temp_rect.height);
+
+		img = img(temp_rect);
+		//imshow("oo", img);
+		//waitKey(0);
+		resize(img, img, img_size);
+		return img;
+	}
+	
+	Mat preprocess( Mat srcImg )
+	{
+		Mat resultImage,resultImage1, resultImage2;
+
+		/* gamma correction */
+		srcImg.convertTo(resultImage, CV_32FC1, 1.0 / 255);
+		pow(resultImage, m_exp_gemma, resultImage);
+
+		/* DoG filter */
+		int dia = 9;
+		GaussianBlur(resultImage, resultImage1, Size(dia, dia), m_gass_sigma0, m_gass_sigma0);
+		GaussianBlur(resultImage, resultImage2, Size(dia, dia), m_gass_sigma1, m_gass_sigma1);
+		resultImage = resultImage1 - resultImage2;
+
+		/* Contrast Equalization */
+		// img = img/(mean2(abs(img).^alpha)^(1/alpha));  
+		resultImage1 = abs(resultImage);
+		pow(resultImage1, m_alpha, resultImage1);
+		resultImage /= pow(mean(resultImage1).val[0], 1.0/ m_alpha);
+
+		// img = img/(mean2(min(tau,abs(img)).^alpha)^(1/alpha)); 
+		resultImage1 = abs(resultImage);
+		resultImage1 = min(m_tau, resultImage1);
+		pow(resultImage1, m_alpha, resultImage1);
+		resultImage = resultImage / pow(mean(resultImage1).val[0], 1.0/ m_alpha) / m_tau;
+
+		// tanh :tanh x = (e^(x)-e^(-x)) /(e^x+e^(-x)) 
+		exp(resultImage, resultImage1);
+		exp((0 - resultImage), resultImage2);
+		resultImage = resultImage1 - resultImage2;
+		resultImage1 = resultImage1 + resultImage2;
+		resultImage = resultImage / resultImage1;
+
+		//normalize
+		normalize(resultImage, resultImage, 0, 1, CV_MINMAX);            
+		convertScaleAbs(resultImage, resultImage, 255);
+		return resultImage;
+	}
+
+private:
+	
+	float m_offset_pctx = 0.3;
+	float m_offset_pcty = 0.3;
+
+	float m_rate = 1.0;
+	
+	float m_exp_gemma = 0.2;
+	float m_gass_sigma0 = 1.0;
+	float m_gass_sigma1 = 2.0;
+	float m_alpha = 0.1;
+	float m_tau = 10.0;
+
+	Size img_size = Size(64, 64);
+	const unsigned char m_basecolor = 0;
+
+	//¾ÀÕý rect
+	void modify_rect(Rect &r, int width, int height)
+	{
+		if (r.x < 0) r.x = 0;
+		if (r.y < 0) r.y = 0;
+		if (r.width + r.x > width) r.width = width - r.x;
+		if (r.height + r.y > height) r.height = height - r.y;
+	}
+
+	//Í¼ÏñÔ¤´¦Àí
+	void pre_img(Rect rect, Mat  &img, vector<Point2f> &five)
+	{
+		return;
+
+		Rect temp_rect;
+		temp_rect.x = five[0].x - rect.width;
+		if (temp_rect.x < 0) return;
+		temp_rect.y = five[0].y - rect.height;
+		if (temp_rect.y < 0) return;
+		temp_rect.width = rect.width * 2;
+		if (temp_rect.width + temp_rect.x > img.cols) return;
+		temp_rect.height = rect.height * 2;
+		if (temp_rect.height + temp_rect.y > img.rows) return;
+
+		for (int i = 0; i < five.size(); i++)
+		{
+			five[i].x = five[i].x - temp_rect.x;
+			five[i].y = five[i].y - temp_rect.y;
+		}
+		img = img(temp_rect);
+	}
+
+	void align_face(Mat &img, float angle, vector<Point2f> five)
+	{		
+		vector<Point2f> src, dest;
+		float center_x = five[0].x;
+		float center_y = five[0].y;
+
+		dest.push_back(Point2f(five[0].x, five[0].y));
+		src.push_back(Point2f(five[0].x, five[0].y));
+
+		for (int i = 1; i < five.size(); i++)
+		{
+			float src_x = (five[i].x - center_x)  * cos(angle) + (five[i].y - center_y)  * sin(angle) + center_x;
+			float src_y = (five[i].y - center_y) * cos(angle) - (five[i].x - center_x)* sin(angle) + center_y;
+			dest.push_back(Point2f(src_x, src_y));
+			src.push_back(five[i]);
+		}
+		Mat warp_mat = estimateRigidTransform(src, dest, false);
+		warpAffine(img, img, warp_mat, img.size());
+	}
+};
+ 

@@ -1,0 +1,100 @@
+
+Epoch 0 : training_loss =  19.732791  time = 12020  val1 = 942.719838 val2 = 1558.583788  -615.863950
+
+Epoch 0 : training_loss =  18.007286  time = 5903  val1 = 812.536034 val2 = 974.629244  -162.093210
+
+Epoch 1 : training_loss =  11.372659  time = 5895  val1 = 700.660815 val2 = 538.965822  161.694993
+
+Epoch 2 : training_loss =  8.299073  time = 5896  val1 = 693.005399 val2 = 402.018306  290.987093
+
+Epoch 3 : training_loss =  6.865107  time = 5897  val1 = 652.019941 val2 = 353.551234  298.468708
+
+Epoch 4 : training_loss =  6.057441  time = 5898  val1 = 621.725511 val2 = 342.680961  279.044551
+
+Epoch 5 : training_loss =  5.536332  time = 5900  val1 = 621.612915 val2 = 309.683985  311.928930
+
+Epoch 6 : training_loss =  5.164485  time = 5900  val1 = 618.566991 val2 = 313.816876  304.750115
+
+Epoch 0 : training_loss =  18.136794  time = 8361  val1 = 826.917846 val2 = 737.238862  89.678983
+
+Epoch 1 : training_loss =  11.475028  time = 8364  val1 = 725.537322 val2 = 651.697367  73.839955
+
+Epoch 7 : training_loss =  5.324820  time = 5908  val1 = 635.064500 val2 = 268.789088  366.275411
+
+Epoch 8 : training_loss =  4.744531  time = 5899  val1 = 609.920882 val2 = 268.997302  340.923581
+
+Epoch 9 : training_loss =  4.456428  time = 5899  val1 = 610.931676 val2 = 284.917832  326.013844
+
+Epoch 10 : training_loss =  4.249103  time = 5901  val1 = 602.020988 val2 = 223.980704  378.040284
+
+Epoch 11 : training_loss =  4.088263  time = 5908  val1 = 608.443728 val2 = 198.826453  409.617276
+
+Epoch 12 : training_loss =  3.952601  time = 5905  val1 = 611.393734 val2 = 181.875298  429.518437
+
+Epoch 13 : training_loss =  3.840402  time = 5910  val1 = 597.565115 val2 = 189.687118  407.877997
+
+Epoch 14 : training_loss =  3.743830  time = 5906  val1 = 606.878063 val2 = 268.459273  338.418790
+
+Epoch 15 : training_loss =  3.655225  time = 5905  val1 = 606.287858 val2 = 197.286063  409.001796
+
+Epoch 16 : training_loss =  3.580580  time = 5906  val1 = 612.232579 val2 = 197.573526  414.659053
+
+Epoch 17 : training_loss =  3.512271  time = 5908  val1 = 616.894412 val2 = 187.471163  429.423249
+
+Epoch 18 : training_loss =  3.452452  time = 5908  val1 = 602.837309 val2 = 200.246237  402.591072
+
+Epoch 19 : training_loss =  3.394514  time = 5907  val1 = 640.216802 val2 = 232.524792  407.692010
+
+Epoch 20 : training_loss =  3.345836  time = 5912  val1 = 599.651960 val2 = 178.369284  421.282676
+
+Epoch 21 : training_loss =  3.298619  time = 5908  val1 = 615.472857 val2 = 160.300665  455.172192
+
+Epoch 22 : training_loss =  3.255296  time = 5909  val1 = 612.664621 val2 = 217.106928  395.557692
+
+Epoch 23 : training_loss =  3.213332  time = 5912  val1 = 601.170724 val2 = 161.557792  439.612932
+
+Epoch 24 : training_loss =  3.177402  time = 5908  val1 = 626.241433 val2 = 192.661753  433.579680
+
+Epoch 25 : training_loss =  3.143086  time = 5910  val1 = 612.599979 val2 = 188.127768  424.472211
+
+Epoch 26 : training_loss =  3.108857  time = 5911  val1 = 599.483822 val2 = 141.948767  457.535054
+
+Epoch 27 : training_loss =  3.077792  time = 5912  val1 = 608.868640 val2 = 140.111763  468.756877
+
+Epoch 28 : training_loss =  3.047950  time = 5911  val1 = 609.327977 val2 = 143.034418  466.293559
+
+Epoch 29 : training_loss =  3.021010  time = 5912  val1 = 611.122366 val2 = 185.296426  425.825939
+
+Epoch 30 : training_loss =  2.993803  time = 5912  val1 = 609.626191 val2 = 221.194279  388.431913
+
+Epoch 31 : training_loss =  2.970132  time = 5910  val1 = 597.410474 val2 = 208.235439  389.175035
+
+Epoch 32 : training_loss =  2.945153  time = 5912  val1 = 613.380532 val2 = 203.002064  410.378468
+
+Epoch 33 : training_loss =  2.657982  time = 5985  val1 = 613.435982 val2 = 175.901302  437.534680
+
+Epoch 34 : training_loss =  2.611665  time = 5922  val1 = 619.356172 val2 = 182.819999  436.536173
+
+Epoch 35 : training_loss =  2.595028  time = 5915  val1 = 613.351557 val2 = 173.498779  439.852778
+
+Epoch 36 : training_loss =  2.577460  time = 5917  val1 = 614.127038 val2 = 180.289252  433.837786
+
+Epoch 37 : training_loss =  2.568010  time = 5920  val1 = 619.014904 val2 = 187.982677  431.032227
+
+Epoch 38 : training_loss =  2.559679  time = 5923  val1 = 607.586178 val2 = 206.106799  401.479378
+
+Epoch 39 : training_loss =  2.551568  time = 5922  val1 = 620.945232 val2 = 185.610006  435.335226
+
+Epoch 40 : training_loss =  2.545527  time = 5924  val1 = 604.642820 val2 = 126.514728  478.128092
+
+Epoch 41 : training_loss =  2.535022  time = 5930  val1 = 615.305651 val2 = 169.723300  445.582352
+
+Epoch 42 : training_loss =  2.532001  time = 5923  val1 = 614.017050 val2 = 199.222333  414.794717
+
+Epoch 43 : training_loss =  2.527195  time = 5922  val1 = 617.661176 val2 = 179.365082  438.296094
+
+Epoch 44 : training_loss =  2.519030  time = 5915  val1 = 621.808501 val2 = 161.537953  460.270547
+
+Epoch 45 : training_loss =  2.516214  time = 5918  val1 = 619.602937 val2 = 151.654899  467.948039
+
+Epoch 46 : training_loss =  2.470502  time = 5923  val1 = 624.671996 val2 = 154.873412  469.798584

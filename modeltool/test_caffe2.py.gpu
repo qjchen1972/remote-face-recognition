@@ -1,0 +1,77 @@
+# -*- coding:utf-8 -*-
+#%matplotlib inline
+from caffe2.proto import caffe2_pb2
+import numpy as np
+import skimage.io
+import skimage.transform
+from PIL import Image
+from matplotlib import pyplot
+import os
+from caffe2.python import core, net_drawer, net_printer, visualize, workspace,utils
+import urllib2
+print("Required modules imported.")
+
+IMAGE_LOCATION =  "/home/0.jpg"
+INIT_NET = "k5/init_net.pb"
+PREDICT_NET = "k5/predict_net.pb"
+output="output"
+width=64
+height=64
+
+srcimg = skimage.io.imread(IMAGE_LOCATION,as_grey=True)
+#print srcimg
+#srcimg = skimage.transform.resize(srcimg, (width, height))
+#print srcimg
+
+#img = skimage.img_as_float(srcimg).astype(np.float32)
+img = srcimg - 127.5
+img = img / 127.5
+img = skimage.transform.resize(img, (width, height))
+img = img[np.newaxis, :, :].astype(np.float32)
+img = img[np.newaxis, :, :, :].astype(np.float32)
+
+#workspace.ResetWorkspace()
+
+device_opts = core.DeviceOption(caffe2_pb2.CUDA, 0)
+#device_opts = core.DeviceOption(caffe2_pb2.CPU, 0)
+init_def = caffe2_pb2.NetDef()
+with open(INIT_NET, 'rb') as f:
+    init_def.ParseFromString(f.read())
+    init_def.device_option.CopyFrom(device_opts)
+    workspace.RunNetOnce(init_def.SerializeToString())
+
+net_def = caffe2_pb2.NetDef()
+with open(PREDICT_NET, 'rb') as f:
+    net_def.ParseFromString(f.read())
+    net_def.device_option.CopyFrom(device_opts)
+    workspace.CreateNet(net_def.SerializeToString())
+
+#net_def.external_output.extend(net_def.op[-1].output)
+name = net_def.name
+output_name = net_def.external_output[-1]
+input_name = net_def.external_input[0]
+#print( name, output_name,input_name)
+#print(net_def.external_input)
+#print(net_def.external_output)
+#print(net_def.op)
+
+
+
+
+workspace.FeedBlob('input', img, device_opts)
+
+#for i in range(100):
+workspace.RunNet(name, 1)
+
+
+#workspace.RunNetOnce(init_net)
+#workspace.CreateNet(predict_net)
+#p = workspace.Predictor(init_net, predict_net)
+#results = p.run([img])
+img_out = workspace.FetchBlob(output)
+print(type(img_out),img_out.size, img_out.shape)
+for i in range(img_out.shape[1]):
+    if i%16 == 0  : print("\n")
+    print img_out[0][i],
+print("\n")
+
