@@ -34,5 +34,5 @@ Dependencies
 * The best version is the latest onnx, pip install git+https://github.com/onnx/onnx.git  
 * caffe2 V0.8.2 or later
 * c++11 or later
-* vs 2017
+
 
