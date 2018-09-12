@@ -11,3 +11,7 @@ The face recognition system embedded in the police enforcement device can identi
    *  A convolutional neural network with modified resolution specially added.detail in [modifyface](https://github.com/qjchen1972/remote-face-recognition/blob/master/modifyface/README.md)
    
       ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/modify.png)
+
+*  Fast and small network, the network of face recognitio is only 15228kb and the network of modifying face resolution is 757kb
+
+*  
