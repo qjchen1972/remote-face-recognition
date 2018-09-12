@@ -4,7 +4,7 @@ The face recognition system embedded in the police enforcement device can identi
 
 * Aiming at the remote and weak light and low resolution, the training image is specially processed, and the data augment is also specially designed.
 
-   *  Transform the image and remove the shadow.(the original imsge on the left and the transformed  image on the right)
+   *  Transform the image and remove the shadow. detail in [/lib](https://github.com/qjchen1972/remote-face-recognition/blob/master/lib/README.md)
    
       ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/lmcp.png)
       
