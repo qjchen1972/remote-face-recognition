@@ -1,5 +1,7 @@
 The face recognition system embedded in the police enforcement device can identify criminals and alert in real time. The project provides some features:
 
+* I try to share everything , but it's a commercial project, so the open source code is not complete. 
+
 * The AI framework is based on pytorch + onnx + caffe2
 
 * Aiming at the remote and weak light and low resolution, the training image is specially processed, and the data augment is also specially designed.
@@ -14,4 +16,5 @@ The face recognition system embedded in the police enforcement device can identi
 
 *  Fast and small network, the network of face recognitio is only 15228kb and the network of modifying face resolution is 757kb
 
-*  
+
+
