@@ -28,4 +28,10 @@ Here are some test results. The test video is in [img](https://github.com/qjchen
  ![](https://github.com/qjchen1972/remote_recognition/blob/master/img/remote.png)
 
 
+Dependencies
+===
+* pytorch V0.3 or later
+* The best version is the latest onnx, pip install git+https://github.com/onnx/onnx.git  
+* caffe2 V0.8.2 or later
+* c++11 or later
 
