@@ -19,11 +19,11 @@ The face recognition system embedded in the police enforcement device can identi
 
 Here are some test results. The test video is in [img](https://github.com/qjchen1972/remote_recognition/tree/master/img).
 
-* Distinguish twins
+* Identifying twins
 
   ![](https://github.com/qjchen1972/remote_recognition/blob/master/img/twns.png)
 
-* Long distance accurate identification, face area is only 20X20
+* Long distance  identification, face area is only 20X20
 
  ![](https://github.com/qjchen1972/remote_recognition/blob/master/img/remote.png)
 
