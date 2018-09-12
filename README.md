@@ -1,4 +1,4 @@
-The face recognition system embedded in the police enforcement device can identify criminals and alert them in real time. The project provides some features:
+The face recognition system embedded in the police enforcement device can identify criminals and alert in real time. The project provides some features:
 
 * The AI framework is based on pytorch + onnx + caffe2
 
