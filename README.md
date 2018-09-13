@@ -10,7 +10,7 @@ The face recognition system embedded in the police enforcement device can identi
    
       ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/lmcp.png)
       
-   *  A convolutional neural network with modified resolution specially added.detail in [modifyface](https://github.com/qjchen1972/remote-face-recognition/blob/master/modifyface/README.md)
+   *  A convolutional neural network with modified resolution is specially added. Please refer to the details  in [modifyface](https://github.com/qjchen1972/remote-face-recognition/blob/master/modifyface/README.md)
    
       ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/modify.png)
 
