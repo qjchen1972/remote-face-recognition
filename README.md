@@ -23,7 +23,7 @@ Here are some test results. The test video is in [img](https://github.com/qjchen
 
   ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/twns.png)
 
-* Long distance  identification, face area is only 20X20
+* Long distance identification with face area only at 20X20
 
  ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/remote.png)
 
