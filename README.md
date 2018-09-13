@@ -17,15 +17,15 @@ The face recognition system embedded in the police enforcement device can identi
 *  Fast and small network, the network of face recognitio is only 15228kb and the network of modifying face resolution is 757kb
 
 
-Here are some test results. The test video is in [img](https://github.com/qjchen1972/remote_recognition/tree/master/img).
+Here are some test results. The test video is in [img](https://github.com/qjchen1972/remote-face-recognition/tree/master/img).
 
 * Identifying twins
 
-  ![](https://github.com/qjchen1972/remote_recognition/blob/master/img/twns.png)
+  ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/twns.png)
 
 * Long distance  identification, face area is only 20X20
 
- ![](https://github.com/qjchen1972/remote_recognition/blob/master/img/remote.png)
+ ![](https://github.com/qjchen1972/remote-face-recognition/blob/master/img/remote.png)
 
 
 Dependencies
