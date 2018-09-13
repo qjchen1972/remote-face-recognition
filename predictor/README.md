@@ -1,5 +1,5 @@
 Reference paper [CosFace: LargeMarginCosineLossforDeepFaceRecognition
-](https://github.com/qjchen1972/remote-face-recognition/blob/master/predictor/cosface.pdf), we used cosface to replace SoftMax.
+](https://github.com/qjchen1972/remote-face-recognition/blob/master/predictor/cosface.pdf), I used cosface to replace SoftMax.
 
 
 Dependencies
