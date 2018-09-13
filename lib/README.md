@@ -1,4 +1,4 @@
-It is a library that uses caffe2 to deploy on mobile devices or PC. it rovides some features:
+It is a library that uses caffe2 to deploy on mobile devices or PC. it provides some features:
 
 *  Part of the code for face alignment comes from the seeta of the Chinese Academy of Sciences
 
