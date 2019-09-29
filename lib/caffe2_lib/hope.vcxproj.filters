@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ssd\ssd.cpp">
+      <Filter>ssd</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\aligner.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\blob.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\common_net.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\log.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\net.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\spatial_transform_net.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="seeta\tform_maker_net.cpp">
+      <Filter>seeta</Filter>
+    </ClCompile>
+    <ClCompile Include="mtcnn\mtcnn.cpp">
+      <Filter>mtcnn</Filter>
+    </ClCompile>
+    <ClCompile Include="mtcnn\network.cpp">
+      <Filter>mtcnn</Filter>
+    </ClCompile>
+    <ClCompile Include="mtcnn\pBox.cpp">
+      <Filter>mtcnn</Filter>
+    </ClCompile>
+    <ClCompile Include="face\newface.cpp">
+      <Filter>face</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6215c32d-e796-4393-9c2a-239f38833d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssd">
+      <UniqueIdentifier>{ab6d6d2f-924f-47b6-a2ab-f7e6e9c77f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="seeta">
+      <UniqueIdentifier>{b80a82dd-a0de-4705-8fc1-6b7b4c60d376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtcnn">
+      <UniqueIdentifier>{aabacb52-caaa-4eed-97d1-40fba7d4eadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="face">
+      <UniqueIdentifier>{4cfb79d2-abda-4c06-a949-51d7dfda520f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\caffe2_net.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\possion.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ssd\detect.h">
+      <Filter>ssd</Filter>
+    </ClInclude>
+    <ClInclude Include="ssd\ssd.h">
+      <Filter>ssd</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\aligner.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\blob.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\common.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\common_net.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\hyper_param.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\log.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\net.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\net_factory.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\spatial_transform_net.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\tform_maker_net.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="seeta\viplnet.h">
+      <Filter>seeta</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcnn\mtcnn.h">
+      <Filter>mtcnn</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcnn\network.h">
+      <Filter>mtcnn</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcnn\pBox.h">
+      <Filter>mtcnn</Filter>
+    </ClInclude>
+    <ClInclude Include="face\newface.h">
+      <Filter>face</Filter>
+    </ClInclude>
+    <ClInclude Include="face\preprocess.h">
+      <Filter>face</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

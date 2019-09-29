@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>hope</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\soft_list\pytorch\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">predictor_verifier.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hope</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\soft_list\pytorch\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">predictor_verifier.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\soft_list\pytorch\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">predictor_verifier.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\soft_list\opencvV3.4.1\build\include;D:\soft_list\OpenBLAS-v0.2.19-Win64-int32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\soft_list\opencvV3.4.1\build\x64\vc15\lib;D:\soft_list\OpenBLAS-v0.2.19-Win64-int32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj -fno-omit-frame-pointer -O0</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/caffe2.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/caffe2_protos.lib;..\lib\Debug\cpuinfo.lib;..\lib\Debug\clog.lib;..\lib\Debug\onnxifi_loader.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/onnx.lib;..\lib\Debug\onnx_proto.lib;..\lib\Debug\libprotobufd.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/Caffe2_perfkernels_avx.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/Caffe2_perfkernels_avx2.lib;..\lib\Debug\c10.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Debug/Caffe2_perfkernels_avx512.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/Debug/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/Debug/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>openblas.lib;opencv_world341.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/caffe2.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/caffe2_protos.lib;D:/soft_list/pytorch/build/lib/Release/cpuinfo.lib;D:/soft_list/pytorch/build/lib/Release/clog.lib;D:/soft_list/pytorch/build/lib/Release/onnxifi_loader.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/onnx.lib;D:/soft_list/pytorch/build/lib/Release/onnx_proto.lib;D:/soft_list/pytorch/build/lib/Release/libprotobuf.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/Caffe2_perfkernels_avx.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/Caffe2_perfkernels_avx2.lib;D:/soft_list/pytorch/build/lib/Release/c10.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/Release/Caffe2_perfkernels_avx512.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/Release/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/Release/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/caffe2.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/caffe2_protos.lib;..\lib\MinSizeRel\cpuinfo.lib;..\lib\MinSizeRel\clog.lib;..\lib\MinSizeRel\onnxifi_loader.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/onnx.lib;..\lib\MinSizeRel\onnx_proto.lib;..\lib\MinSizeRel\libprotobuf.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/Caffe2_perfkernels_avx.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/Caffe2_perfkernels_avx2.lib;..\lib\MinSizeRel\c10.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/MinSizeRel/Caffe2_perfkernels_avx512.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/MinSizeRel/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/MinSizeRel/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;ONNX_NAMESPACE=onnx_c2;_CRT_SECURE_NO_DEPRECATE=1;USE_MSC_ATOMICS=1;AT_CORE_STATIC_WINDOWS=1;CPUINFO_SUPPORTED_PLATFORM=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\build\caffe2\contrib\aten;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\third_party\cpuinfo\include;D:\soft_list\pytorch\third_party\FP16\include;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/caffe2.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/caffe2_protos.lib;..\lib\RelWithDebInfo\cpuinfo.lib;..\lib\RelWithDebInfo\clog.lib;..\lib\RelWithDebInfo\onnxifi_loader.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/onnx.lib;..\lib\RelWithDebInfo\onnx_proto.lib;..\lib\RelWithDebInfo\libprotobuf.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/Caffe2_perfkernels_avx.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/Caffe2_perfkernels_avx2.lib;..\lib\RelWithDebInfo\c10.lib;-WHOLEARCHIVE:D:/soft_list/pytorch/build/lib/RelWithDebInfo/Caffe2_perfkernels_avx512.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/RelWithDebInfo/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/RelWithDebInfo/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\soft_list\pytorch\build\ZERO_CHECK.vcxproj">
+      <Project>{201DE5B8-0D44-3615-B1E5-E969720FB257}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\ATEN_CPU_FILES_GEN_TARGET.vcxproj">
+      <Project>{6AF93EC3-4B5F-3485-9F8D-553F7A12E93B}</Project>
+      <Name>ATEN_CPU_FILES_GEN_TARGET</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\perfkernels\Caffe2_perfkernels_avx.vcxproj">
+      <Project>{10C0EFB5-F2F0-3052-B771-C13E7FB44A9A}</Project>
+      <Name>Caffe2_perfkernels_avx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\perfkernels\Caffe2_perfkernels_avx2.vcxproj">
+      <Project>{B2E80A65-00E4-3C7D-B536-A17471DE0230}</Project>
+      <Name>Caffe2_perfkernels_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\perfkernels\Caffe2_perfkernels_avx512.vcxproj">
+      <Project>{605E2931-5A9D-3A87-9A67-C017A328BDFE}</Project>
+      <Name>Caffe2_perfkernels_avx512</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\__aten_op_header_gen.vcxproj">
+      <Project>{6085DBF5-7934-3EC3-BCBE-AE90C0020893}</Project>
+      <Name>__aten_op_header_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\c10\c10.vcxproj">
+      <Project>{CF627E60-F04D-32CF-A440-BA2D33EFEADA}</Project>
+      <Name>c10</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\caffe2.vcxproj">
+      <Project>{ED9472CA-46E5-3B76-8450-EDD8F04416CD}</Project>
+      <Name>caffe2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\caffe2_protos.vcxproj">
+      <Project>{69C43F42-27FC-38C7-AFC9-3360D8C33E85}</Project>
+      <Name>caffe2_protos</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\confu-deps\cpuinfo\deps\clog\clog.vcxproj">
+      <Project>{944D7F28-0F17-3C19-88DF-A8D2B86E5DF3}</Project>
+      <Name>clog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\confu-deps\cpuinfo\cpuinfo.vcxproj">
+      <Project>{B6A941DF-EE22-3DD6-B8D4-C2F34F2FBBF7}</Project>
+      <Name>cpuinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\third_party\protobuf\cmake\libprotobuf.vcxproj">
+      <Project>{3B44CD70-EFC9-36FE-BF68-256FE425BF7E}</Project>
+      <Name>libprotobuf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\third_party\onnx\onnx.vcxproj">
+      <Project>{1B7F5283-0A0C-3077-97F7-2588FE50B2A1}</Project>
+      <Name>onnx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\third_party\onnx\onnx_proto.vcxproj">
+      <Project>{4995B72D-A16D-3AD3-88F8-D1A507D22540}</Project>
+      <Name>onnx_proto</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\third_party\onnx\onnxifi_loader.vcxproj">
+      <Project>{E6A23ACB-6CB2-3955-ACDE-F75A4788D30A}</Project>
+      <Name>onnxifi_loader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="face\newface.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mtcnn\mtcnn.cpp" />
+    <ClCompile Include="mtcnn\network.cpp" />
+    <ClCompile Include="mtcnn\pBox.cpp" />
+    <ClCompile Include="seeta\aligner.cpp" />
+    <ClCompile Include="seeta\blob.cpp" />
+    <ClCompile Include="seeta\common_net.cpp" />
+    <ClCompile Include="seeta\log.cpp" />
+    <ClCompile Include="seeta\net.cpp" />
+    <ClCompile Include="seeta\spatial_transform_net.cpp" />
+    <ClCompile Include="seeta\tform_maker_net.cpp" />
+    <ClCompile Include="ssd\ssd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="face\newface.h" />
+    <ClInclude Include="face\preprocess.h" />
+    <ClInclude Include="mtcnn\mtcnn.h" />
+    <ClInclude Include="mtcnn\network.h" />
+    <ClInclude Include="mtcnn\pBox.h" />
+    <ClInclude Include="seeta\aligner.h" />
+    <ClInclude Include="seeta\blob.h" />
+    <ClInclude Include="seeta\common.h" />
+    <ClInclude Include="seeta\common_net.h" />
+    <ClInclude Include="seeta\hyper_param.h" />
+    <ClInclude Include="seeta\log.h" />
+    <ClInclude Include="seeta\net.h" />
+    <ClInclude Include="seeta\net_factory.h" />
+    <ClInclude Include="seeta\spatial_transform_net.h" />
+    <ClInclude Include="seeta\tform_maker_net.h" />
+    <ClInclude Include="seeta\viplnet.h" />
+    <ClInclude Include="ssd\detect.h" />
+    <ClInclude Include="ssd\ssd.h" />
+    <ClInclude Include="utils\caffe2_net.h" />
+    <ClInclude Include="utils\possion.h" />
+    <ClInclude Include="utils\utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

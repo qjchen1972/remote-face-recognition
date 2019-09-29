@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hope", "hope.vcxproj", "{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.Debug|x64.ActiveCfg = Debug|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.Debug|x64.Build.0 = Debug|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.Release|x64.ActiveCfg = Release|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.Release|x64.Build.0 = Release|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B50E20F-E81A-476C-91B5-9DEB794E35AA}
+	EndGlobalSection
+EndGlobal
