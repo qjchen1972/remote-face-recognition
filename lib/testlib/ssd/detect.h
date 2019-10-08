@@ -65,6 +65,11 @@ public:
 
 		//printf("end size  %d\n", mean.size());
 		if (!clip) return;
+#pragma omp parallel for
+		for (int i = 0; i < mean.size(); i++) {
+			mean[i] = std::max(mean[i], 0.0f);
+			mean[i] = std::min(mean[i], 1.0f);
+		}
 
 /*#pragma omp parallel for
 		for (int i = 0; i < mean.size(); i++) {
