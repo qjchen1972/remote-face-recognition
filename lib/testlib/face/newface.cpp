@@ -238,6 +238,7 @@ int  get_vec(cv::Mat img,
 	util.Mat2array(src, data);
 	cm.setMat(data, src.channels(),src.cols, src.rows);
 	if(norm_mode == NORM_NEGA)	cm.normalize(mean, norms);
+	else cm.normalize(default_mean, default_norms);
 	predictor.setInput("input", cm);
 	if (!predictor.run()) {
 		std::cout << "predict error" << std::endl;

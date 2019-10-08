@@ -58,6 +58,8 @@ namespace caffe2net{
 		Net() {}
 
 		~Net() {
+			/* inputHost的value使用ShareExternalPointer，不需要做删除操作
+
 			auto hiter = inputHost.begin();
 			while (hiter != inputHost.end()) {
 				printf("delete %s \n", hiter->first.c_str());
@@ -72,6 +74,7 @@ namespace caffe2net{
 				++diter;
 			}
 #endif
+          */
 
 		}
 
